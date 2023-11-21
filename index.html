@@ -22,10 +22,10 @@
           <img src="./logo.png" alt="Logo" height="68" width="68">
           <h1>R<span>entention</span></h1>
         </div>
-        <button class="btn btn-large">Share a fact</button>
+        <button class="btn btn-large btn-open">Share a fact</button>
       </header>
 
-      <form class="fact-form">
+      <form class="fact-form hidden">
         <input type="text" placeholder="Share a fact with world..." />
         <span>200</span>
         <input type="text" placeholder="Trustworthy source...">
@@ -43,7 +43,7 @@
       <main class="main">
 
         <aside>
-          <ul>
+          <ul class="category-list">
             <li class="category"><button class="btn btn-all-categories">All</button>
             </li>
             <li class="category"><button class="btn btn-category"
@@ -56,7 +56,7 @@
 
 
         <section>
-          <ul>
+          <ul class="facts-list">
             <li class="fact">
               <p>
                 React is being developed by Meta(formerly facebook)
@@ -91,6 +91,7 @@
 
       </main>
     </div>
+    <script src="./script.js"></script>
   </body>
 
 </html>

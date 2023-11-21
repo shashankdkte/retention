@@ -232,6 +232,10 @@ ul {
     width: auto;
   }
 }
+
+.hidden{
+  display: none;
+}
   
     /* --dark-color:#292524;
   --medium-dark:#44403c;
